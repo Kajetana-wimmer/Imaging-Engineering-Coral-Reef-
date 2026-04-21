@@ -3,7 +3,7 @@ from torchvision import transforms, models
 from PIL import Image
 
 # ----- Parameters -----
-IMG_SIZE = 224
+IMG_SIZE = 227
 MODEL_PATH = "coral_model.pth"
 
 classes = ['dead', 'dying', 'healthy']
